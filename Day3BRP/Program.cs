@@ -12,6 +12,7 @@ namespace Day3BRP
                 "2.FindDayOfWeek\n" +
                 "3.CalculateWindChill\n" +
                 "4.CalculateAverage");
+
             input = Convert.ToInt32(Console.ReadLine());
 
             switch (input)
@@ -36,6 +37,7 @@ namespace Day3BRP
                     Stats5 s = new Stats5();
                     s.CalulateAverage();
                     break;
+
 
                 default:
                     Console.WriteLine("Enter proper input");
