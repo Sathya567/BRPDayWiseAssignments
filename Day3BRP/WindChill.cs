@@ -24,13 +24,13 @@ namespace Day3BRP
 
                 double WindChill = 35.74 + 0.6215 * Temperature + (0.4275 * Temperature - 35.75) * v;
 
-                Console.WriteLine("Windchill is = " + WindChill);
+                Console.WriteLine("Windchill  = " + WindChill);
             }
             else
             {
                 Console.WriteLine("Input is invalid");
                 CalculateWindChill();
-                Console.WriteLine();
+
             }
 
             Console.ReadLine();
@@ -38,4 +38,4 @@ namespace Day3BRP
         }
     }
 }
-    
+   
